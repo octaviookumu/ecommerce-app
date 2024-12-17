@@ -11,6 +11,7 @@ import { FooterComponent } from "./layout/footer/footer.component";
 
 @Component({
   imports: [RouterModule, FontAwesomeModule, NavbarComponent, FooterComponent],
+  standalone: true,
   selector: 'ecom-root',
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',

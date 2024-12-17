@@ -7,5 +7,6 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
   imports: [CommonModule, FontAwesomeModule],
   templateUrl: './navbar.component.html',
   styleUrl: './navbar.component.scss',
+  standalone: true,
 })
 export class NavbarComponent {}

@@ -7,5 +7,6 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
   imports: [CommonModule, FontAwesomeModule],
   templateUrl: './footer.component.html',
   styleUrl: './footer.component.scss',
+  standalone: true,
 })
 export class FooterComponent {}
